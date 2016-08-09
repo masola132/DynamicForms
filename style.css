@@ -1,0 +1,72 @@
+body {
+	background-color:white;
+	margin-left:350px;
+	margin-top:50px;
+	
+	}
+
+input, textarea, select {
+	background-color:white;
+	font-color: black;
+	border: 2px solid black; 
+	width: 295px;
+	padding-top:5px;
+	margin-top:10px;
+}
+
+
+
+input {
+	height: 20px;
+	color:black;
+	font-size:15px;
+}
+#Submit {
+	float:right;
+	background-color:teal;
+	color:white;
+}
+
+
+textarea {
+	height: 100px;	
+	color:teal;
+	font-size:15px;
+
+}
+
+#Title {
+	border:2px solid black;
+	padding:10px 10px 10px 10px;
+	width:300px;
+	background-color:teal;
+	color:white;
+	margin-left:12px;
+}
+
+#Forms {
+	width:300px;
+	float: left;
+	margin-top: 5px;
+	margin-left:12px;
+	display: inline-block;
+	border:2px solid black;
+	padding:10px 10px 10px 10px;
+
+}
+
+
+}
+select {
+	border-radius: 0px;
+	width:30px;
+}
+
+
+
+#Submit {
+	margin-top:5px;
+	width:90px;
+	height:40px;
+	font-size:20px;
+}
