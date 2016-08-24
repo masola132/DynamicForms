@@ -1,19 +1,34 @@
 $(document).ready(function(){
+  $.get('http://json-data.herokuapp.com/forms', function(data){
+    var htmlStr = '';
+    data.forEach(function(item){
+    	if (item.type === 'text') {
+    		htmlStr += "<input type='text' placeHolder='" + item.label + "' id='" + item.id + "' />";
+    	}
+    	if (item.type === 'email') {
+    		htmlStr += "<input type='email' placeHolder='" + item.label + "' id='" + item.id + "' />";
+    	}
+    	
+    	if (item.type === 'select') {
+    		htmlStr += "<input type='select' placeHolder='" + item.label + "' id='" + item.id + "' options='" + item.option + "'  />";
+    	}
+
+    	if (item.type === 'textarea') {
+    		htmlStr += "<input type='textarea' placeHolder='" + item.label + "' id='" + item.id + "' />";
+    	}
+
+    	if (item.type === 'tel') {
+    		htmlStr += "<input type='tel' placeHolder='" + item.label + "' id='" + item.id + "' />";
+    	}
   
+    })
 
-  $.get('', function(data){
-    data.forEach(function(field){
-
-      $()
-
-
-
+    $("#forms").html(htmlStr)
 
   })
 });
 
-
-
+// 
 
 
 
@@ -120,3 +135,9 @@ $(document).ready(function(){
 // options: [ ]
 // }
 // ]
+
+
+
+
+
+

@@ -26,15 +26,11 @@ input {
 	background-color:teal;
 	color:white;
 }
-
-
 textarea {
 	height: 100px;	
 	color:teal;
 	font-size:15px;
-
 }
-
 #Title {
 	border:2px solid black;
 	padding:10px 10px 10px 10px;
@@ -43,7 +39,6 @@ textarea {
 	color:white;
 	margin-left:12px;
 }
-
 #Forms {
 	width:300px;
 	float: left;
@@ -52,21 +47,17 @@ textarea {
 	display: inline-block;
 	border:2px solid black;
 	padding:10px 10px 10px 10px;
-
-}
-
-
 }
 select {
 	border-radius: 0px;
 	width:30px;
 }
-
-
-
 #Submit {
 	margin-top:5px;
 	width:90px;
 	height:40px;
 	font-size:20px;
 }
+
+
+
